@@ -6,13 +6,19 @@ const inventory = [
 
 // Filter practice
 
-// const electronics = inventory.filter(product =>{
-//     return product.tags.includes('electronics')
-// })
+const electronics = inventory.filter(product =>{
+    return product.tags.includes('electronics')
+})
 
-// console.log(electronics);
+console.log(electronics);
 
 // Find Practice 
 
 const maxPrice = inventory.find(firstItem => firstItem.price > 500);
 console.log('First Item over 500 taka:', maxPrice.name)
+
+const priceLabel = inventory.map( product => {
+    return `${product.name}: $${product.price}`
+})
+
+console.log(priceLabel)
