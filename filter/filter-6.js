@@ -31,7 +31,7 @@ shallowInventory[0].name = 'Super Laptop';
 console.log(shallowInventory[0]);
 console.log(inventory[0]);
 
-Deep Copy
+// Deep Copy
 
 const deepInventory = JSON.parse(JSON.stringify(inventory));
 deepInventory[0].price = 0;
