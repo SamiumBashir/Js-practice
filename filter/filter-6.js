@@ -6,11 +6,11 @@ const inventory = [
 
 // Filter practice
 
-// const electronics = inventory.filter(product =>{
-//     return product.tags.includes('electronics')
-// })
+const electronics = inventory.filter(product =>{
+    return product.tags.includes('electronics')
+})
 
-// console.log(electronics);
+console.log(electronics);
 
 // Find Practice 
 
