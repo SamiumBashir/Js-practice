@@ -14,14 +14,14 @@ console.log(electronics);
 
 // Find Practice 
 
-// const maxPrice = inventory.find(firstItem => firstItem.price > 500);
-// console.log('First Item over 500 taka:', maxPrice.name)
+const maxPrice = inventory.find(firstItem => firstItem.price > 500);
+console.log('First Item over 500 taka:', maxPrice.name)
 
-// const priceLabel = inventory.map( product => {
-//     return `${product.name}: $${product.price}`
-// })
+const priceLabel = inventory.map( product => {
+    return `${product.name}: $${product.price}`
+})
 
-// console.log(priceLabel);
+console.log(priceLabel);
 
 
 // Shallow Copy
