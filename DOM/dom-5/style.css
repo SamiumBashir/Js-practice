@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn{
+    background-color: aqua;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.todo__input{
+    padding: 10px;
+    border: 1px solid aqua;
+}
+
+.list-item{
+    text-align: start;
+}
