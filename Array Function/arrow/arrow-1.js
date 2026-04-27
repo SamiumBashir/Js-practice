@@ -4,7 +4,7 @@ const maxProd = products.filter (product => {
     return product.price > 1000
 })
 
-// console.log(maxProd);
+console.log(maxProd);
 
 const nameList = products.map (product => {
     return product.name
@@ -16,7 +16,7 @@ const totalPrice = products.reduce((totalPrice, product) => {
     return totalPrice + product.price
 }, 0);
 
-// console.log(totalPrice);
+console.log(totalPrice);
 
 const searchItem = products.find(product =>{
     return product.id === 2;
