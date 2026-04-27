@@ -19,8 +19,9 @@ body{
 }
 
 .todo__input{
-    padding: 10px;
+    padding: 10px 40px;
     border: 1px solid aqua;
+    border-radius: 15px;
 }
 
 .list-item{

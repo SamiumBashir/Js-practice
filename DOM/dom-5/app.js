@@ -15,3 +15,5 @@ btn.addEventListener("click", () => {
     input.value = '';
 });
 
+
+document.get
